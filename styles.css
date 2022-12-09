@@ -1,13 +1,15 @@
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
-.paragraph {
-    font-family: 'Satisfy', cursive;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #b39bd8;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
 }
